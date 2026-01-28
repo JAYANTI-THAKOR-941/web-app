@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+.logo h1 span{
+    color: rgb(255, 68, 0);
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.btns button{
+    background-color: rgb(255, 68, 0);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius:8px;
+    padding: 12px 28px;
+    font-weight: bold;
+}
